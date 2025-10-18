@@ -43,8 +43,8 @@ The architecture is as follows:
 
 The data is modeled as a **Star Schema**.
 
-* `fact_property_sales`: A single table containing one row for every valid market sale, with keys to the dimensions and the `sale_price` measure.
-* `dim_property`: A table holding descriptive details about each unique property (address, building type, borough, ZIP).
+* `fct_property_sales`: A single table containing one row for every valid market sale, with keys to the dimensions and the `sale_price` measure.
+* `dim_property`: A table holding descriptive details about each unique property and developed as **a SCD Type 2 to capture changes in property level**(address, building type, borough, ZIP).
 * `dim_date`: A date dimension table that breaks down the `sale_date` into useful attributes (month, year, quarter, day of week).
 
 
@@ -65,7 +65,7 @@ The data is modeled as a **Star Schema**.
 The next step for this project is to add automated orchestration.
 
 * **Automated Ingestion:** Airflow DAG for yearly refresh of property sales.
-* **Incremental Loads:** The script would fetch the yearly sales data, transform it, and append it to the `fact_property_sales` table, ensuring the dashboard is always up-to-date.
+* **Incremental Loads:** The script would fetch the yearly sales data, transform it, and append it to the `fct_property_sales` table, ensuring the dashboard is always up-to-date.
 
 ---
 
