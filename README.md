@@ -23,11 +23,11 @@ The key business insight is to build standardized data views that reveal which n
 
 This project was built as an end-to-end cloud data solution, migrating from a local environment to a fully deployed cloud application.
 
-* **Database:** **PostgreSQL** (Local and Hosted on **Render**)
-* **Data Ingestion and cleansing:** **Bash**, **Python**, **[NYC GeoSearch API]**
-* **Data Migration:** **Python** (Pandas, SQLAlchemy)
-* **BI & Visualization:** **Metabase** (Hosted on **Metabase Cloud**)
-* **Tools:** **DBeaver**, **VScode**, **Docker**
+* 🐘 **Database:** **PostgreSQL** (Local and Hosted on **Render**)
+* 🐍 🐚 **Data Ingestion and cleansing:** **Bash**, **Python**, **[NYC GeoSearch API]**
+* ☁️ **Data Migration:** **Python** (Pandas, SQLAlchemy)
+* 📈 **BI & Visualization:** **Metabase** (Hosted on **Metabase Cloud**)
+* 💻 **Tools:** **DBeaver**, **VScode**, **Docker**
 
 ### Project Architecture
 
