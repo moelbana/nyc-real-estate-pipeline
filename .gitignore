@@ -1,0 +1,11 @@
+# .gitignore file
+
+# Secrets
+.env
+
+# Data Files
+*.csv
+*.xlsx
+
+# Python cache
+__pycache__/
