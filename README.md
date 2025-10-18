@@ -2,8 +2,8 @@
 
 A complete data engineering project that ingests, cleans, models, and visualizes NYC property sales data to identify market trends.
 
-**View the Live Interactive Dashboard Here**
-[https://giant-swim.metabaseapp.com/public/dashboard/1311632e-f703-4193-8fb1-191104e922b0](https://giant-swim.metabaseapp.com)
+**🚀 View the Live Interactive Dashboard Here 🚀**
+[Live NYC Property Sales Dashboard](https://giant-swim.metabaseapp.com/public/dashboard/1311632e-f703-4193-8fb1-191104e922b0)
 
 
 <img width="1089" height="704" alt="Screenshot from 2025-10-18 20-57-54" src="https://github.com/user-attachments/assets/b741e374-0a32-49c2-9258-17698fb79ef8" />
