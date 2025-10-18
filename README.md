@@ -7,6 +7,8 @@ A complete data engineering project that ingests, cleans, models, and visualizes
 
 
 <img width="1089" height="704" alt="Screenshot from 2025-10-18 20-57-54" src="https://github.com/user-attachments/assets/b741e374-0a32-49c2-9258-17698fb79ef8" />
+<img width="1081" height="415" alt="Screenshot from 2025-10-18 21-37-04" src="https://github.com/user-attachments/assets/7c8630fc-c33f-4e05-815c-e81e80515d02" />
+
 
 ---
 
@@ -22,7 +24,7 @@ The key business insight is to build standardized data views that reveal which n
 This project was built as an end-to-end cloud data solution, migrating from a local environment to a fully deployed cloud application.
 
 * **Database:** **PostgreSQL** (Local and Hosted on **Render**)
-* **Data Ingestion and cleansing:** **Bash**, **Python** 
+* **Data Ingestion and cleansing:** **Bash**, **Python**, **[NYC GeoSearch API]**
 * **Data Migration:** **Python** (Pandas, SQLAlchemy)
 * **BI & Visualization:** **Metabase** (Hosted on **Metabase Cloud**)
 * **Tools:** **DBeaver**, **VScode**, **Docker**
@@ -53,6 +55,7 @@ The data is modeled as a **Star Schema**.
 
 ## 4. Project Highlights
 
+* **Advanced Data Cleansing:** Standardized inconsistent raw property addresses by using the **[NYC GeoSearch API]**.
 * **End-to-End Deployment:** Successfully managed the full project lifecycle from local development to a live, public cloud dashboard.
 
 ---
