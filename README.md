@@ -2,8 +2,11 @@
 
 A complete data engineering project that ingests, cleans, models, and visualizes NYC property sales data to identify market trends.
 
-**🚀 View the Live Interactive Dashboard Here 🚀**
+**Notice: It will only be available for 14 Days as it's hosted on free-tier instance**
+**📊 View the Live Interactive Dashboard Here 📊**
+
 [Live NYC Property Sales Dashboard](https://giant-swim.metabaseapp.com/public/dashboard/1311632e-f703-4193-8fb1-191104e922b0)
+
 
 
 <img width="1089" height="704" alt="Screenshot from 2025-10-18 20-57-54" src="https://github.com/user-attachments/assets/b741e374-0a32-49c2-9258-17698fb79ef8" />
@@ -27,13 +30,13 @@ This project was built as an end-to-end cloud data solution, migrating from a lo
 * 🐍 🐚 **Data Ingestion and cleansing:** **Bash**, **Python**, **[NYC GeoSearch API]**
 * ☁️ **Data Migration:** **Python** (Pandas, SQLAlchemy)
 * 📈 **BI & Visualization:** **Metabase** (Hosted on **Metabase Cloud**)
-* 💻 **Tools:** **DBeaver**, **VScode**, **Docker**
+* 💻 **Tools:** **DBeaver**, **VScode**
 
 ### Project Architecture
 
 The architecture is as follows:
 
-1.  **Local Environment:** Data was ingested from NYC.gov, cleaned, and modeled locally using Python, SQL, Bash(SHELL Scripting), and a local Postgres instance.
+1.  **Local Environment:** Data was ingested from NYC.gov, cleaned, and modeled locally using **Python**, **SQL**, **Bash(Shell Scripting)**, and a local Postgres instance.
 2.  **Cloud Database:** The finalized data model was migrated to a free-tier Postgres database hosted on **Render**.
 3.  **Cloud Application:** A **Metabase Cloud** instance was deployed to connect to the **Render** database.
 
