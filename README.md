@@ -3,6 +3,7 @@
 A complete data engineering project that ingests, cleans, models, and visualizes NYC property sales data to identify market trends.
 
 **Notice: It will only be available for 14 Days as it's hosted on free-tier instance**
+
 **📊 View the Live Interactive Dashboard Here 📊**
 
 [Live NYC Property Sales Dashboard](https://giant-swim.metabaseapp.com/public/dashboard/1311632e-f703-4193-8fb1-191104e922b0)
