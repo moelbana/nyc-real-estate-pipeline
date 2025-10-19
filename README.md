@@ -34,7 +34,7 @@ This project was built as an end-to-end cloud data solution, migrating from a lo
 
 ---
 
-## Project Architecture
+### Project Architecture
 
 The architecture is as follows:
 
