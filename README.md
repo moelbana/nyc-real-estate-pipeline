@@ -32,7 +32,9 @@ This project was built as an end-to-end cloud data solution, migrating from a lo
 * 📈 **BI & Visualization:** **Metabase** (Hosted on **Metabase Cloud**)
 * 💻 **Tools:** **DBeaver**, **VScode**
 
-### Project Architecture
+---
+
+## Project Architecture
 
 The architecture is as follows:
 
